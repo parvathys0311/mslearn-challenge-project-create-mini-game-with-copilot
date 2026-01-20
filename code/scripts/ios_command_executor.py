@@ -18,12 +18,12 @@ logger = logging.getLogger(__name__)
 
 
 class IOSCommandExecutor:
-    """Execute commands on Cisco IOS devices."""
+    """Execute commands on Cisco Internetwork Operating System (IOS) devices."""
     
     def __init__(self, host: str, username: str, password: str, 
                  device_type: str = 'cisco_ios', port: int = 22):
         """
-        Initialize the iOS command executor.
+        Initialize the IOS command executor.
         
         Args:
             host: Device hostname or IP address

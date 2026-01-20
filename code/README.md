@@ -1,4 +1,4 @@
-# AutoCon4 Workshop - iOS VRF Inventory Discovery
+# AutoCon4 Workshop - IOS VRF Inventory Discovery
 
 This project provides tools and workflows to execute arbitrary commands on Cisco IOS devices, parse the output, and ingest the data into NetBox via Diode.
 
@@ -149,7 +149,7 @@ The `vrf_inventory_workflow.py` orchestrates:
 
 ## Command Support
 
-The framework supports arbitrary IOS commands. To add new commands:
+The framework supports arbitrary Cisco IOS commands. To add new commands:
 
 1. Use `execute_command()` method with any command
 2. Create a custom parser if needed

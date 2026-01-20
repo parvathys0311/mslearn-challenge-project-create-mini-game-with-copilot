@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Workflow to execute 'show ip vrf interfaces' on iOS devices,
+Workflow to execute 'show ip vrf interfaces' on Cisco IOS devices,
 parse the output, and feed it into Diode.
 """
 
@@ -56,7 +56,7 @@ class VRFInventoryWorkflow:
         """
         logger.info("Setting up workflow...")
         
-        # Initialize iOS command executor
+        # Initialize IOS command executor
         self.executor = IOSCommandExecutor(
             self.device_host,
             self.device_username,

@@ -1,0 +1,20 @@
+# Diode Configuration
+# Format: YAML
+
+diode:
+  # Base URL of the Diode service
+  base_url: http://localhost:8080
+  
+  # API key for authentication (optional)
+  api_key: your-api-key-here
+  
+  # Data source name for VRF interfaces
+  data_source: ios-vrf-interfaces
+  
+  # Timeout for API calls (seconds)
+  timeout: 30
+  
+  # Retry configuration
+  retry:
+    max_attempts: 3
+    backoff_seconds: 5
